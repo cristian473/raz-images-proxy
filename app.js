@@ -13,5 +13,5 @@ app.use("/", createProxyMiddleware({
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Express server running at http://localhost:${PORT}/`);
+  console.log(`Express server running at http://localhost:${PORT}/ with target http://comprobantes.razycia.net:8088`);
 });
